@@ -1,0 +1,78 @@
+/*TAGS*/
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0px;
+  font-family: Montserrat, sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+header{
+  height: 100px;
+  line-height: 1.3;
+  color: white;
+  font-size: 20px;
+  font-family: monospace;
+  letter-spacing: 0.5em;
+}
+
+footer {
+  clear: both;
+  text-align: center;
+  margin-top: auto;
+}
+
+/*ID's*/
+
+#hero {
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    
+    height: 100vh;
+    max-height: 800px;
+    background-image: url("../images/aranha.jpg");
+    background-position: 50% 101%;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin: 0%;
+  }
+
+#hero-content {
+    width: 33vw;
+    margin-left: 63%;
+    margin-top: 37%;
+  }
+
+#div_corpo {
+  background-color: rgb(255, 255, 255);
+  min-height: 200px;
+  margin-left: 15%;
+  margin-top: 5%;
+}
+
+/*Classes*/
+
+.container {
+  width: 1350px;
+}
+
+.div_edit {
+  margin-top: 15px;
+  margin-bottom: 33px;
+  font-size: 15px;
+  line-height: 20px;
+  font-family: monospace;
+  line-height: 27px;
+}
+
+.none {
+  list-style-type: none;
+}
